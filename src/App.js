@@ -5,9 +5,8 @@ import Body from './body'
 
 function App() {
   return (
-    <div className="grid md:grid-cols-3">
+    <div className="">
         <Body/>
-        <Sidenav/>
     </div>
   );
 }
