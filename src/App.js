@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Sidenav from './sidenav';
 import Body from './body'
 
 function App() {
