@@ -1,12 +1,31 @@
 import React from 'react';
-import './App.css';
-import Body from './body'
-
+import Body from './components/body'
+import Navbar from './components/sidenav'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Bio from './components/about/bio';
+import Project from'./components/projects/project'
 function App() {
   return (
-    <div className="">
-        <Body/>
-    </div>
+    <Router className='font-sans'>
+        <Navbar/>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Body/>
+            </Route>
+            <Route path='/bio'>
+              <Bio/>
+            </Route>
+            <Route path='/project'>
+              <Project/>
+            </Route>
+          </Switch>
+        </div>
+    </Router>
   );
 }
 
