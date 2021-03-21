@@ -6,6 +6,7 @@ import lightbulb from '../../../src/images/lightbulb.svg'
 import test from '../../../src/images/test.svg'
 import network from '../../../src/images/network.svg'
 import atom from '../../../src/images/atom.svg'
+import devsetup from '../../../src/images/devsetup.jpg'
 const Bio = () => {
     return (
         <div>
@@ -58,7 +59,7 @@ const Bio = () => {
                 <div>
                 <img
                     className="object-cover w-full shadow-lg sm:h-96"
-                    src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                    src={devsetup}
                     alt=""
                 />
                 </div>

@@ -1,17 +1,24 @@
 import React from "react";
+import devdesk from '../images/devdesk.jpg'
+
  const Header = ()  =>{
+        const hrStyle = {
+            borderTop:' 8px solid white',
+            fontSize:'45px',
+            width:'100px'
+          };
     return(
-        <div className='hero flex flex-col px-4 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 h-full' style={{backgroundImage: `url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80')`}}>
         <div>
-            <div className='hero-name container flex mx-auto px-6title-fontmb-4 font-medium'>
-                <span className='mb-2 text-6xl'>Jumbo</span>
-                <br/>
-                <span className='mb-8 text-6xl'>Daniel.</span>
+            <div className='px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-32 bg-no-repeat	bg-center bg-cover h-2/6' style={{backgroundImage:  `url(${process.env.PUBLIC_URL + '/Images/devdesk.jpg'})`}}>
+
+                    <div className='hero-name container mx-auto  title-font font-medium text-white' style={{fontSize:'115px'}}>
+                        Jumbo Daniel.
+                        <hr style={hrStyle}/>
+                    </div>
+                    <div className='text-center text-black'>
+                        <p>Citizen of The World</p>
+                    </div>
             </div>
-            <div>
-                <p>Citizen of The World</p>
-            </div>
-        </div>
         </div>
     )
 }
