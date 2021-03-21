@@ -1,5 +1,4 @@
 import React from "react";
-import devdesk from '../images/devdesk.jpg'
 
  const Header = ()  =>{
         const hrStyle = {
