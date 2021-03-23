@@ -8,13 +8,14 @@ import React from "react";
           };
     return(
         <div>
-            <div className='px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-32 bg-no-repeat	bg-center bg-cover h-2/6' style={{backgroundImage:  `url(${process.env.PUBLIC_URL + '/Images/devdesk.jpg'})`}}>
+            <div className='px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 bg-no-repeat	bg-center bg-cover h-2/6' style={{backgroundImage:  `url(${process.env.PUBLIC_URL + '/Images/devdesk.jpg'})`}}>
 
                     <div className='hero-name container mx-auto  title-font font-medium text-white' style={{fontSize:'115px'}}>
                         Jumbo Daniel.
                         <hr style={hrStyle}/>
                     </div>
-                    <div className='text-center text-black'>
+                    
+                    <div className='font-medium text-white text-3xl pt-3'>
                         <p>Citizen of The World</p>
                     </div>
             </div>
