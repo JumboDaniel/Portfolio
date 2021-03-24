@@ -1,6 +1,7 @@
 import React from 'react';
 import Body from './components/body'
 import Navbar from './components/sidenav'
+import Gamer from './components/Gamer/gamer'
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route path='/project'>
               <Project/>
+            </Route>
+            <Route path='/gamer'>
+              <Gamer/>
             </Route>
           </Switch>
         </div>

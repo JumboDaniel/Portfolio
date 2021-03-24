@@ -15,8 +15,8 @@ const Bio = () => {
                 <div className="flex flex-col justify-center">
                 <div className="max-w-xl mb-6">
                     <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    Hello, i'm
-                    <br className="hidden md:block" />
+                    Hello, I'm
+                    <br className="md:block" />
                     Jumbo Daniel
                     <span className="relative px-1">
                         <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400" />
@@ -26,9 +26,7 @@ const Bio = () => {
                     </span>
                     </h2>
                     <p className="text-base text-gray-700 md:text-lg">
-                    I am a fullstack web developer who likes to make things work. 
-                    I love solving problems. I love adventures, learning new things, random facts and intellectual conversations. 
-                    I enjoy working in teams- members contribute different perspectives, and joint action among team members can produce creative and effective results
+                    I am a full stack web developer who likes to make things work. I love solving problems. I love adventures, learning new things, random facts, and intellectual conversations. I enjoy working in teams- members contribute different perspectives, and joint action among team members can produce creative and effective results
                     </p>
                 </div>
                 <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
