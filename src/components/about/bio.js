@@ -8,6 +8,7 @@ import network from '../../../src/images/network.svg'
 import atom from '../../../src/images/atom.svg'
 import devsetup from '../../../src/images/devsetup.jpg'
 const Bio = () => {
+    const sunLink = 'https://wtamu.edu/~cbaird/sq/2013/07/03/what-is-the-color-of-the-sun/#:~:text=The%20color%20of%20the%20sun%20is%20white.,under%20the%20illumination%20of%20sunlight.'
     return (
         <div>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -33,22 +34,20 @@ const Bio = () => {
                     <div className="bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
                     <div className="h-full p-5 border border-l-0 rounded-r">
                         <h6 className="mb-2 font-semibold leading-5">
-                        I'll be sure to note that in my log
+                        The weirdest fact you will ever hear.
                         </h6>
                         <p className="text-sm text-gray-900">
-                        Lookout flogging bilge rat main sheet bilge water nipper fluke
-                        to go on account heave down.
+                        <span className='text-blue-500'>The color of the sun is white</span>. The sun emits all colors of the rainbow more or less evenly and in physics,... <a className='text-blue-700' href={sunLink}>Read more</a>
                         </p>
                     </div>
                     </div>
                     <div className="bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
                     <div className="h-full p-5 border border-l-0 rounded-r">
                         <h6 className="mb-2 font-semibold leading-5">
-                        A business big enough that it could be listed
+                        Another weird fact.
                         </h6>
                         <p className="text-sm text-gray-900">
-                        Those options are already baked in with this model shoot me an
-                        email clear.
+                        Children of identical twins are genetically siblings, not cousins.
                         </p>
                     </div>
                     </div>
