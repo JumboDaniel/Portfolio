@@ -1,18 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Body from './components/body'
 import Navbar from './components/sidenav'
 import Gamer from './components/Gamer/gamer'
+import Bio from './components/about/bio';
+import Project from'./components/projects/project';
+import Clock from './components/Clock'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import Bio from './components/about/bio';
-import Project from'./components/projects/project'
+
 function App() {
+
+  const [loading, setLoading] = useState(true)
+  useEffect(()=>{
+    setTimeout(() => {
+      setLoading(false)
+    }, 3500);
+  }, [])
+
   return (
-    <Router className='font-sans'>
-        <Navbar/>
+    <div>
+      {(loading === false) ? 
+      <Router className='font-sans'>
+      <Navbar/>
         <div>
           <Switch>
             <Route exact path="/">
@@ -29,7 +41,11 @@ function App() {
             </Route>
           </Switch>
         </div>
-    </Router>
+      </Router>
+      : 
+      <Clock/>
+      }
+    </div>
   );
 }
 
