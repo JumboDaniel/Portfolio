@@ -5,20 +5,23 @@ import Gamer from './components/Gamer/gamer'
 import Bio from './components/about/bio';
 import Project from'./components/projects/project';
 import Clock from './components/Clock'
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useLocation,
 } from "react-router-dom";
 
 function App() {
-
+  const location = useLocation()
   const [loading, setLoading] = useState(true)
   useEffect(()=>{
     setTimeout(() => {
       setLoading(false)
     }, 3500);
-  }, [])
+  }, []);
+
 
   return (
     <div>
@@ -26,20 +29,28 @@ function App() {
       <Router className='font-sans'>
       <Navbar/>
         <div>
-          <Switch>
-            <Route exact path="/">
-              <Body/>
-            </Route>
-            <Route path='/bio'>
-              <Bio/>
-            </Route>
-            <Route path='/project'>
-              <Project/>
-            </Route>
-            <Route path='/gamer'>
-              <Gamer/>
-            </Route>
-          </Switch>
+          <TransitionGroup>
+            <CSSTransition 
+            timeout={300} 
+            classNames='fade'  
+            key={location.key}
+            >
+              <Switch location={location}>
+                <Route exact path="/">
+                  <Body/>
+                </Route>
+                <Route path='/bio'>
+                  <Bio/>
+                </Route>
+                <Route path='/project'>
+                  <Project/>
+                </Route>
+                <Route path='/gamer'>
+                  <Gamer/>
+                </Route>
+              </Switch>
+            </CSSTransition>
+          </TransitionGroup>
         </div>
       </Router>
       : 
