@@ -18,8 +18,8 @@ const Footer = () =>{
         <div className='flex flex-row max-w-xl space-x-36 justify-between container text-left px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 h-full'>
             <div className='flex flex-col px-8 py-6 lg:w-1/3 md:w-full'>
                 <div>
-                    <p className='leading-loose'>
-                        Your Friend, <br/>Your Father, <br/>Your Confidant.
+                    <p className='tracking-normal font-semibold pb-4'>
+                        Your Friend, Your Father, Your Confidant.
                     </p>
                 </div>    
                 <div className='flex flex-row space-x-4'>
@@ -31,7 +31,7 @@ const Footer = () =>{
 
             </div>        
     
-            <div className='flex px-8 py-6 lg:w-1/3 md:w-full'>
+            <div className='flex flex-row px-8 py-6 lg:w-1/3 md:w-full'>
                 <p> 
                     &copy; Jumbo Daniel {date}
                 </p>

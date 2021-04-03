@@ -51,7 +51,9 @@ function App() {
           </TransitionGroup>
       </div>
       : 
-      <Clock/>
+      <div className=' flex flex-row items-center px-64 py-64 justify-center inset-0 '>
+        <Clock/>
+      </div>
       }
     </div>
   );
