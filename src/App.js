@@ -7,7 +7,6 @@ import Project from'./components/projects/project';
 import Clock from './components/Clock'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   useLocation,
@@ -26,9 +25,8 @@ function App() {
   return (
     <div>
       {(loading === false) ? 
-      <Router className='font-sans'>
+      <div className='font-sans'>
       <Navbar/>
-        <div>
           <TransitionGroup>
             <CSSTransition 
             timeout={300} 
@@ -51,8 +49,7 @@ function App() {
               </Switch>
             </CSSTransition>
           </TransitionGroup>
-        </div>
-      </Router>
+      </div>
       : 
       <Clock/>
       }
