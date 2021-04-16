@@ -23,10 +23,10 @@ const Footer = () =>{
                     </p>
                 </div>    
                 <div className='flex flex-row space-x-4'>
-                    <a href='https://github.com/JumboDaniel' target='blank'> <img src={github} alt='gtihub' /></a>
-                    <a href='https://www.instagram.com/jr.jumbo /' target='blank'> <img src={instagram} alt='instagram' /></a>
-                    <a href='https://www.linkedin.com/in/revival-jumbo-8704781bb/' target='blank'> <img src={linkedin} alt='linkedin' /></a>
-                    <a href='https://twitter.com/JumboDaniel4' target='blank'> <img src={twitter} alt='twitter' /></a>
+                    <a href='https://github.com/JumboDaniel' target='blank'> <img src="https://img.icons8.com/doodle/32/000000/github--v1.png"/></a>
+                    <a href='https://www.instagram.com/jr.jumbo /' target='blank'> <img src="https://img.icons8.com/doodle/32/000000/instagram-new.png"/></a>
+                    <a href='https://www.linkedin.com/in/revival-jumbo-8704781bb/' target='blank'> <img src="https://img.icons8.com/android/32/000000/linkedin.png"/></a>
+                    <a href='https://twitter.com/JumboDaniel4' target='blank'> <img src="https://img.icons8.com/ultraviolet/32/000000/twitter.png"/></a>
                 </div>
 
             </div>        
