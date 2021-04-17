@@ -1,9 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import github from '../images/github.svg'
-import linkedin from '../images/linkedin.svg'
-import twitter from '../images/twitter.svg'
-import instagram from '../images/instagram.svg'
-
 const Footer = () =>{
     const [date , setDate] = useState();
 
@@ -23,10 +18,10 @@ const Footer = () =>{
                     </p>
                 </div>    
                 <div className='flex flex-row space-x-4'>
-                    <a href='https://github.com/JumboDaniel' target='blank'> <img src="https://img.icons8.com/doodle/32/000000/github--v1.png"/></a>
-                    <a href='https://www.instagram.com/jr.jumbo /' target='blank'> <img src="https://img.icons8.com/doodle/32/000000/instagram-new.png"/></a>
-                    <a href='https://www.linkedin.com/in/revival-jumbo-8704781bb/' target='blank'> <img src="https://img.icons8.com/android/32/000000/linkedin.png"/></a>
-                    <a href='https://twitter.com/JumboDaniel4' target='blank'> <img src="https://img.icons8.com/ultraviolet/32/000000/twitter.png"/></a>
+                    <a href='https://github.com/JumboDaniel' target='blank'> <img alt="Github" src="https://img.icons8.com/doodle/32/000000/github--v1.png"/></a>
+                    <a href='https://www.instagram.com/jr.jumbo /' target='blank'> <img alt="Instagram" src="https://img.icons8.com/doodle/32/000000/instagram-new.png"/></a>
+                    <a href='https://www.linkedin.com/in/revival-jumbo-8704781bb/' target='blank'> <img alt="LinkedIN" src="https://img.icons8.com/android/32/000000/linkedin.png"/></a>
+                    <a href='https://twitter.com/JumboDaniel4' target='blank'> <img alt="Twitter" src="https://img.icons8.com/ultraviolet/32/000000/twitter.png"/></a>
                 </div>
 
             </div>        
