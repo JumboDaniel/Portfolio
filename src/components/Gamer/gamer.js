@@ -47,6 +47,9 @@ const Gamer = () => {
           </div>
         </div>
       </div>
+      <div>
+        <h2>Some of my favourite gaming titles</h2>
+      </div>
       <Footer/>
       </div>
     );
