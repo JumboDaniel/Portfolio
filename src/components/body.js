@@ -22,7 +22,7 @@ const Body = () => {
                     </h2>
                     <hr style={hrStyle} className= 'pb-8'/>
                     <p className="mb-4 text-base leading-relaxed">I have always loved blogging, I had two when I was young. I am currently building my blog platform.</p>
-                    <Link to="/gamer"
+                    {/* <Link to="/gamer"
                         className="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
                         Learn More
                         <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
@@ -31,7 +31,7 @@ const Body = () => {
                             <path
                                 d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
                         </svg>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className="px-8 py-6 lg:w-1/3 md:w-full">
                     <h2 className="mb-3 text-lg uppercase font-bold text-black lg:text-4xl title-font">Gamer
@@ -54,14 +54,14 @@ const Body = () => {
                     </h2>
                     <hr style={hrStyle} className= 'pb-8'/>
                     <p className="mb-4 text-base leading-relaxed">Knowledge is a fundamental pillar of life as we know. I spend several hours weekly reading from the most pertinent issues of the universe to the most random facts.</p>
-                    <a href="abc.com" className="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
+                    {/* <a href="abc.com" className="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
                         Learn More
                         <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
                             fill="currentColor">
                             <path fill="none" d="M0 0h24v24H0z" />
                             <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
                         </svg>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

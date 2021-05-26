@@ -10,34 +10,43 @@ import Weatherapp from '../../../src/images/Weatherapp.png'
 export default [
     {
         name: 'Movie App',
-        file: Movie
+        file: Movie,
+        linkTo:'https://jumbomovieapp.netlify.app/'
     },
     {
         name: 'Basic Vanilla JS Calculator',
-        file: Calculator
+        file: Calculator,
+        linkTo: 'https://basecalculator.netlify.app/javascript-calculator-master/'
+
     },
     {
         name: 'Christ Vineyard Ministries',
-        file: Christvineyard
+        file: Christvineyard,
+        linkTo:'http://christvineyardministries.org.ng/'
     },
     {
         name: 'Candino West Africa LTD',
-        file: Candino
+        file: Candino,
+        linkTo:'http://candinowestafrica.com.ng/'
     },
     {
         name: 'HFDI Global Consulting Firm',
-        file: HFDI
+        file: HFDI,
+        linkTo:'http://www.hfdiglobalconsulting.com/'
     },
     {
         name: 'Vanilla JS Todolist',
-        file: Todolist
+        file: Todolist,
+        linkTo: 'https://jolly-pasteur-8ad199.netlify.app/'
     },
     {
         name: 'Express, Node JS Blog',
-        file: Nodeblog
+        file: Nodeblog,
+        linkTo: 'https://github.com/JumboDaniel/node-blog-project'
     },
     {
         name: ' Vanilla JS Weatherapp ',
-        file: Weatherapp
+        file: Weatherapp,
+        linkTo: 'https://github.com/JumboDaniel/Weather-app'
     }
 ]
