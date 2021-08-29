@@ -18,7 +18,7 @@ const Gamer = () => {
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
               FIFA fan boy turned PES entusiasst. I try to make time to play video games because they help me clear my head after a hectic day. When I finish up my blog I will post reviews of the games I play. 
-              <br/> I am currently playing all Assassin creed Black Flag(I decided to play open world game after a friend recommended them).
+              <br/> Recently I decided to replay all the editions of the Assassin's Creed franchise (pre-2015), so no Origins or Oddessy.
               </p>
             </div>
             <div>

@@ -37,7 +37,7 @@ const Body = () => {
                     <h2 className="mb-3 text-lg uppercase font-bold text-black lg:text-4xl title-font">Gamer
                     </h2>
                     <hr style={hrStyle} className= 'pb-8'/>
-                    <p className="mb-4 text-base leading-relaxed">When I am not coding, most ties I am am playing video games</p>
+                    <p className="mb-4 text-base leading-relaxed">Sailing across the oceans trying to fight off the British Royal Navy and defend the land of Nassau.</p>
                     <Link to="/gamer"
                         className="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
                         Learn More
