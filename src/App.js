@@ -5,6 +5,7 @@ import Gamer from './components/Gamer/gamer'
 import Bio from './components/about/bio';
 import Project from'./components/projects/project';
 import Clock from './components/Clock'
+import Blog from './components/blog/blog'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import {
   Switch,
@@ -45,6 +46,9 @@ function App() {
                 </Route>
                 <Route path='/gamer'>
                   <Gamer/>
+                </Route>
+                <Route path='/blog'>
+                  <Blog/>
                 </Route>
               </Switch>
             </CSSTransition>
