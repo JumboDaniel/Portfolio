@@ -40,7 +40,7 @@ const Navbar = () => {
                 <Link to='/project' className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"> Projects</Link>
             </li>
             <li>
-                <Link to='/design' className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"> Design</Link>
+                <Link to='/blog' className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"> Blog</Link>
             </li>
             <li>
                 <Link to='/bio' className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"> Bio</Link>

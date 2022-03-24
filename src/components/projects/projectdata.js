@@ -1,4 +1,4 @@
-import Movie from '../../../src/images/Movie.png'
+import Movie from '../../../src/images/Movie1.jpg'
 import Calculator from '../../../src/images/Calculator.png'
 import Christvineyard from '../../../src/images/Christvineyard.png'
 import Candino from '../../../src/images/Candino.png'
